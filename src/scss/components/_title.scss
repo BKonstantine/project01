@@ -4,6 +4,7 @@
       grid-area: title;
       @include font-setting(600, 70px, 90%, $color-white);
       max-width: 500px;
+      margin-top: 71px;
     }
   }
 }

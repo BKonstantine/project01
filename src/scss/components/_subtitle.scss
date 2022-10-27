@@ -4,6 +4,7 @@
       grid-area: subtitle;
       @include font-setting(400, 20px, 130%, $color-white);
       max-width: 500px;
+      margin-top: 40px;
     }
   }
 }

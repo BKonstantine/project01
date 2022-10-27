@@ -2,9 +2,10 @@
   &_type {
     &_chess-blue {
       grid-area: chess;
-      width: 461px;
+      width: 416px;
       height: 104px;
       @include background-setting(url(../../image/main/Group3331.svg), cover);
+      margin-top: 181px;
     }
 
     &_header-abstraction {
