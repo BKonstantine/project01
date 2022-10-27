@@ -1,0 +1,20 @@
+.image {
+  &_type {
+    &_chess-blue {
+      grid-area: chess;
+      width: 461px;
+      height: 104px;
+      @include background-setting(url(../../image/main/Group3331.svg), cover);
+    }
+
+    &_header-abstraction {
+      grid-area: abstraction;
+      position: relative;
+      margin-top: 10px;
+      right: -25%;
+      width: 640px;
+      height: 640px;
+      @include background-setting(url(../../image/main/Group332.svg), cover);
+    }
+  }
+}

@@ -1,5 +1,6 @@
 /* Настройки шрифта */
 @mixin font-setting($fweight, $fsize, $flineheight, $color) {
+  margin: 0;
   font-weight: $fweight;
   font-size: $fsize;
   line-height: $flineheight;

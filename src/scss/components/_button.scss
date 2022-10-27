@@ -2,16 +2,34 @@
   margin: 0;
   padding: 0;
   border: 0;
-  width: 218px;
-  height: 48px;
-  border-radius: 8px;
-  background-color: $color-green;
-  @include font-setting(600, 15px, 120%, $color-white);
-  letter-spacing: 0.01em;
-  cursor: pointer;
-  transition: 0.2s linear;
+  box-sizing: border-box;
 
-  &:hover {
-    background-color: $color-green-hover;
+  &_type {
+    &_register {
+      width: 218px;
+      height: 48px;
+      border-radius: 8px;
+      background-color: $color-green;
+      @include font-setting(600, 15px, 120%, $color-white);
+      letter-spacing: 0.01em;
+      cursor: pointer;
+      transition: 0.2s linear;
+
+      &:hover {
+        background-color: $color-green-hover;
+      }
+    }
+
+    &_link {
+      grid-area: link;
+      padding-right: 5px;
+      width: 84px;
+      height: 50px;
+      border-top-right-radius: 25px;
+      border-bottom-right-radius: 25px;
+      background-color: $color-blue;
+      @include font-setting(500, 16px, 90%, $color-white);
+      text-transform: uppercase;
+    }
   }
 }

@@ -1,0 +1,9 @@
+.subtitle {
+  &_position {
+    &_true-chess {
+      grid-area: subtitle;
+      @include font-setting(400, 20px, 130%, $color-white);
+      max-width: 500px;
+    }
+  }
+}
