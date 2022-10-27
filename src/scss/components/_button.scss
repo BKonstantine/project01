@@ -1,0 +1,17 @@
+.button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 218px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: $color-green;
+  @include font-setting(600, 15px, 120%, $color-white);
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  transition: 0.2s linear;
+
+  &:hover {
+    background-color: $color-green-hover;
+  }
+}

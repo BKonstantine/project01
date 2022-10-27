@@ -20,8 +20,22 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(s*)css$/,
-        use: [miniCss.loader, "css-loader", "sass-loader"],
+        test: /\.scss$/,
+        use: [
+          miniCss.loader,
+          {
+            loader: "css-loader",
+          },
+          {
+            loader: "resolve-url-loader",
+          },
+          {
+            loader: "sass-loader",
+            options: {
+              sourceMap: true, // <-- !!IMPORTANT!!
+            },
+          },
+        ],
       },
       {
         test: /\.js$/,

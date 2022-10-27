@@ -1,0 +1,22 @@
+.header {
+  padding-top: 27px;
+  &__links {
+    display: flex;
+    align-items: center;
+    gap: 53px;
+  }
+
+  &__link {
+    flex: none;
+    text-decoration: none;
+    @include font-setting(400, 15px, 110%, $color-white);
+    letter-spacing: 0.01em;
+    span {
+      display: inline-block;
+      margin-left: 10px;
+      width: 10px;
+      height: 13px;
+      @include background-setting(url(../../image/header/arrow.svg), contain);
+    }
+  }
+}
