@@ -10,6 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
     <title>Project01</title>
   </head>
   <body class="body">
@@ -41,27 +45,50 @@
         </div>
       </section>
       <section class="our-team">
-        <div class="container container__out-team">
-          <div class="card">
-            <img src="" alt="" class="image" />
-            <h3 class="title"></h3>
-            <p class="subtitle"></p>
-          </div>
-          <div class="card">
-            <img src="" alt="" class="image" />
-            <h3 class="title"></h3>
-            <p class="subtitle"></p>
-          </div>
-          <div class="card">
-            <img src="" alt="" class="image" />
-            <h3 class="title"></h3>
-            <p class="subtitle"></p>
-          </div>
-        </div>      
+        <div class="container container__our-team">
+          <h2 class="title title_position_our-team">Наша команда</h2>
+          <p class="subtitle subtitle_position_our-team">
+            Лучшие шахматисты и шахматистки любители России, гройсмейстеры, с
+            ними играть — одно удовольствие!
+          </p>
+          <ul class="cards">
+            <li class="card">
+              <img
+                alt="Фотография члена команды"
+                class="image image_type_card"
+                src="<%=require('../src/image/main/Rectangle309.png')%>"
+              />
+              <h3 class="title title_position_card">Андрей</h3>
+              <p class="subtitle subtitle_position_card">
+                Шахматист, писатель.
+              </p>
+            </li>
+            <li class="card">
+              <img
+                alt="Фотография члена команды"
+                class="image image_type_card"
+                src="<%=require('../src/image/main/Group305.png')%>"
+              />
+              <h3 class="title title_position_card">Никита</h3>
+              <p class="subtitle subtitle_position_card">Шахматист, кулинар.</p>
+            </li>
+            <li class="card">
+              <img
+                alt="Фотография члена команды"
+                class="image image_type_card"
+                src="<%=require('../src/image/main/Group306.png')%>"
+              />
+              <h3 class="title title_position_card">Алексей</h3>
+              <p class="subtitle subtitle_position_card">Шахматист, геймер.</p>
+            </li>
+          </ul>
+        </div>
         <div class="container container__invitation"></div>
       </section>
       <section class="battles"></section>
     </main>
     <footer class="footer"></footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   </body>
 </html>
+<!-- <%=require('../src/image/main/Group305.png')%> -->

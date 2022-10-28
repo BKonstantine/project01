@@ -17,5 +17,9 @@
       height: 640px;
       @include background-setting(url(../../image/main/Group332.svg), cover);
     }
+
+    &_card-element {
+      padding-bottom: 30px;
+    }
   }
 }

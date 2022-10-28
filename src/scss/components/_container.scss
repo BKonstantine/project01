@@ -9,8 +9,8 @@
     align-items: center;
   }
 
-  &__true-chess {
-    padding-top: 60px;
+  &__true-chess {    
+    padding: 60px 0 80px;
     max-width: 1280px;
     overflow: hidden;
     margin-left: auto;
@@ -18,10 +18,14 @@
     grid-template-columns: 1fr min-content;
     grid-template-rows: repeat(3, min-content) 1fr;
     grid-template-areas:
-      "link abstraction" 
+      "link abstraction"
       "title abstraction"
       "subtitle abstraction"
       "chess abstraction";
-      align-items: start;
+    align-items: start;
+  }
+
+  &__our-team {
+    max-width: 1120px;
   }
 }
