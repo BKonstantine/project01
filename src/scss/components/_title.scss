@@ -8,13 +8,22 @@
     }
 
     &_our-team {
-      @include font-setting(600, 70px, 90%, $color-white);      
+      @include font-setting(600, 70px, 90%, $color-white);
     }
 
     &_card {
       @include font-setting(400, 22px, 130%, $color-white);
       letter-spacing: 0.055em;
       text-transform: uppercase;
+    }
+
+    &_invitation {
+      grid-area: title;
+      align-self: end;
+      @include font-setting(600, 70px, 90%, $color-white);
+      margin-left: 100px;
+      margin-bottom: 37px;
+      max-width: 520px;
     }
   }
 }

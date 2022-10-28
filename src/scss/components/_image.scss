@@ -18,8 +18,22 @@
       @include background-setting(url(../../image/main/Group332.svg), cover);
     }
 
-    &_card-element {
+    &_card {
       padding-bottom: 30px;
+    }
+
+    &_our-team-left-abstraction {
+      grid-area: left-abstraction;
+      width: 220px;
+      height: 440px;
+      @include background-setting(url(../../image/main/Group336.svg), cover);
+    }
+
+    &_our-team-right-abstraction {
+      grid-area: right-abstraction;
+      width: 440px;
+      height: 440px;
+      @include background-setting(url(../../image/main/Group337.svg), cover);
     }
   }
 }

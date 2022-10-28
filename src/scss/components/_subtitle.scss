@@ -18,5 +18,13 @@
       @include font-setting(400, 20px, 130%, $color-white);
       margin-top: 10px;
     }
+
+    &_invitation {
+      grid-area: subtitle;
+      align-self: start;
+      @include font-setting(400, 20px, 130%, $color-white);
+      margin-left: 100px;
+      max-width: 520px;
+    }
   }
 }

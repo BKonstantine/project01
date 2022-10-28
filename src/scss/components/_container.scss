@@ -9,7 +9,7 @@
     align-items: center;
   }
 
-  &__true-chess {    
+  &__true-chess {
     padding: 60px 0 80px;
     max-width: 1280px;
     overflow: hidden;
@@ -27,5 +27,18 @@
 
   &__our-team {
     max-width: 1120px;
+  }
+
+  &__invitation {
+    padding: 60px 0 60px;
+    max-width: 1280px;
+    overflow: hidden;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(2, min-content);
+    grid-template-rows: repeat(2, min-content);
+    grid-template-areas:
+      "left-abstraction right-abstraction title"
+      "left-abstraction right-abstraction subtitle";
   }
 }
