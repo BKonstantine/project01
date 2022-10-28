@@ -41,4 +41,13 @@
       "left-abstraction right-abstraction title"
       "left-abstraction right-abstraction subtitle";
   }
+
+  &__battles {
+    max-width: 1120px;
+
+    &_use_abstraction {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
 }
