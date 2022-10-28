@@ -32,5 +32,9 @@
       max-width: 500px;
       margin-top: 40px;
     }
+
+    &_footer {
+      @include font-setting(400, 15.1px, 132%, #8e9199);
+    }
   }
 }

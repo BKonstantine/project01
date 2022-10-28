@@ -30,5 +30,9 @@
     &_battles {
       @include font-setting(600, 70px, 90%, $color-white);
     }
+
+    &_footer {
+      @include font-setting(400, 20px, 130%, $color-white);
+    }
   }
 }
